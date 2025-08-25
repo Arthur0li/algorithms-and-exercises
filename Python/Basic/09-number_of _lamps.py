@@ -1,11 +1,9 @@
 '''
-Escreva um algoritmo para calcular e imprimir o número de lâmpadas necessárias para 
-iluminar um determinado cômodo de uma residência. 
+Write an algorithm to calculate and print the number of light bulbs needed to illuminate a given room in a residence.
 
-Dados de entrada: a potência da lâmpada utilizada (em watts), as dimensões 
-(largura e comprimento, em metros) do cômodo. 
+Input data: the power of the bulb used (in watts), and the dimensions of the room (width and length, in meters).
 
-Considere que a potência necessária é de 18 watts por metro quadrado.
+Consider that the required power is 18 watts per square meter.
 '''
 
 wattage = float(input("Type the wattage of the lamps: "))
