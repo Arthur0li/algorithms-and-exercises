@@ -3,7 +3,9 @@ while True:
         n = int(input("Type a number: "))
         for i in range(0, n + 1):
             print(i)
-
+        if n <= 0:
+            print("Error :( the number must be greater than 0. Try again.\n")
+            continue
     except ValueError:
         print("Você não digitou um número, tente novamente.\n")
         continue 
