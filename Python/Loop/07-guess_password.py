@@ -5,7 +5,7 @@ while True:
     password_numbers = random.sample([1, 2, 3], 3)  
     password = ''.join(str(num) for num in password_numbers)  
 
-    print("Welcome to the Password Guessing Game!")
+    print("\nWelcome to the Password Guessing Game!")
     print("Your challenge is to guess a 3-digit password (numbers are 1, 2, 3, all different).")
 
     attempts = 0  
