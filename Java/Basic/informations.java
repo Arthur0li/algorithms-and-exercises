@@ -12,9 +12,12 @@ public class informations {
         country = JOptionPane.showInputDialog("Now type the country that you live: ");
         monthly_income = JOptionPane.showInputDialog("Now type your monthly income:");
 
-        JOptionPane.showMessageDialog(null, "Your name is: "+ name);
-        JOptionPane.showMessageDialog(null, "Your age is: " + age);
-        JOptionPane.showMessageDialog(null, "The country that you live is: " + country);
-        JOptionPane.showMessageDialog(null, "Your monthly income is : " + monthly_income);
+        JOptionPane.showMessageDialog(
+            null, 
+            "Your name is: " + name +
+            "\nYour age is: " + age +
+            "\nThe country that you live is: " + country +
+            "\nYour monthly income is: " + monthly_income
+            );
     }   
 }
