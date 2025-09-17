@@ -1,5 +1,3 @@
-package Java.Basic;
-
 public class hello_world {
     public static void method(){
         System.out.print("\nOlá de dentro do método!\n");

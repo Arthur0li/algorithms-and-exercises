@@ -1,5 +1,3 @@
-package Java.Basic;
-
 public class data_types {
     public static void main(String[] args) {
         int number = 0;
