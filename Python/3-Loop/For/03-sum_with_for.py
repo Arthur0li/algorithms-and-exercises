@@ -33,7 +33,7 @@ while True:
     while True:
         choice = input("Do you want to run the program again? (y/n): ").lower()
         if choice == "y":
-            break 
+            break
         elif choice == "n":
             print("Program terminated!")
             exit()
