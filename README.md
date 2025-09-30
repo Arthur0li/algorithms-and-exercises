@@ -11,7 +11,7 @@ This repository gathers **programming exercises and algorithm practice**, organi
 
 * `python/` → exercises in Python.
 * `c/` → exercises in C.
-* `arduino/` → exercises in Arduino.
+* `java/` → exercises in Java.
 * Each exercise folder may contain a `README.md` describing the task and solution.
 
 ## 🎯 Goals
@@ -32,7 +32,7 @@ Este repositório reúne **exercícios de programação e prática de algoritmos
 
 * `python/` → exercícios em Python.
 * `c/` → exercícios em C.
-* `arduino/` → exercícios em Arduino.
+* `java/` → exercícios em Java.
 * Cada pasta de exercício pode conter um `README.md` com enunciado e solução.
 
 ## 🎯 Objetivos
