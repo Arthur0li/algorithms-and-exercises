@@ -16,10 +16,12 @@ while True:
                 print("You typed it wrong, you need to enter a number.")
 
     list.sort()
-    print("Here are the sorted numbers:", list)
+    print("\nHere are the sorted numbers:", list)
+    list.sort(reverse=True)
+    print("Here are the numbers sorted backwards:", list)
 
     while True:
-        choice = input("Do you want to restart the program? (y/n): ")
+        choice = input("\nDo you want to restart the program? (y/n): ")
 
         if choice == 'y':
             print("You chose to restart the program :)")
