@@ -1,4 +1,7 @@
 while True:
+
+    print("\nWelcome to the book information program\n")
+
     dict_book = {"Title": "", "Author": "", "Year": "", "Pages": ""}
 
     dict_book["Title"] = input("Enter a title: ")

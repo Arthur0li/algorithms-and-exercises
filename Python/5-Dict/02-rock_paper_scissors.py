@@ -1,6 +1,8 @@
 import random
 
 while True:
+
+    print("\nWelcome to the rock, paper and scissors game!, please chose a option...")
     options = {1: "Paper", 2: "Scissors", 3: "Rock"}
     choice_machine = random.choice(list(options.values()))
 
