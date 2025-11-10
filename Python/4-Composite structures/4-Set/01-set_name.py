@@ -17,7 +17,9 @@ while True:
         name = input("Enter a name: ")
         names_set.add(name)
 
-    print("\nHere are the names you added!\n", names_set)
+    print("\nHere are the names you added!")
+    for names in names_set:
+        print(names)
 
     while True:
         choice = input("\nDo you want to restart the program? (y/n): ")
