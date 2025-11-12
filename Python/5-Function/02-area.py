@@ -1,78 +1,80 @@
 def rectangle_square():
-    print("\nVocê escolheu retângulo/quadrado!")
+    print("\nYou chose rectangle/square!")
 
     while True:
         try:
-            x = float(input("Digite o primeiro lado: "))
+            x = float(input("Enter the first side: "))
             if x <= 0:
-                print("Você digitou um lado menor ou igual a 0, tente novamente\n")
+                print("You entered a side less than or equal to 0, try again\n")
             else:
-                print("O primeiro lado que digitou foi", x)
+                print("The first side you entered was", x)
                 break
         except ValueError:
-            print("Você não digitou um número! Tente Novamente!\n")
+            print("You did not enter a number! Try again!\n")
     
     while True:
         try:
-            y = float(input("\nDigite o segundo lado: "))
+            y = float(input("\nEnter the second side: "))
             if y <= 0:
-                print("Você digitou um lado menor ou igual a 0, tente novamente\n")
+                print("You entered a side less than or equal to 0, try again\n")
             else:
-                print("O segundo lado que digitou foi", y)
+                print("The second side you entered was", y)
                 break
         except ValueError:
-            print("Você não digitou um número! Tente Novamente!\n")
+            print("You did not enter a number! Try again!\n")
     
-    print("\nA área é igual a:", x*y)
+    print("\nThe area is:", x * y)
+
 
 def circle():
-    print("\nVocê escolheu circulo!")
+    print("\nYou chose circle!")
 
     while True:
         try:
-            r = float(input("Digite o raio: "))
+            r = float(input("Enter the radius: "))
             if r <= 0:
-                print("Você digitou o raio menor ou igual a 0, tente novamente\n")
+                print("You entered a radius less than or equal to 0, try again\n")
             else:
-                print("O raio que digitou foi", r)
+                print("The radius you entered was", r)
                 break
         except ValueError:
-            print("Você não digitou um número! Tente Novamente!\n")
+            print("You did not enter a number! Try again!\n")
     
-    print("\nA área é igual a:", (r**2)*3.14)
+    print("\nThe area is:", (r ** 2) * 3.14)
+
 
 def triangle():
-    print("\nVocê escolheu triângulo!")
+    print("\nYou chose triangle!")
     
     while True:
         try:
-            b = float(input("Digite a base do triângulo: "))
+            b = float(input("Enter the base of the triangle: "))
             if b <= 0:
-                print("Você digitou uma base menor ou igual a 0, tente novamente\n")
+                print("You entered a base less than or equal to 0, try again\n")
             else:
-                print("A base que digitou foi", b)
+                print("The base you entered was", b)
                 break
         except ValueError:
-            print("Você não digitou um número! Tente Novamente!\n")
+            print("You did not enter a number! Try again!\n")
         
     while True:
         try:
-            h = float(input("\nDigite a altura do triangulo: "))
+            h = float(input("\nEnter the height of the triangle: "))
             if h <= 0:
-                print("Você digitou uma altura menor ou igual a 0, tente novamente\n")
+                print("You entered a height less than or equal to 0, try again\n")
             else:
-                print("A altura que digitou foi", h)
+                print("The height you entered was", h)
                 break
         except ValueError:
-            print("Você não digitou um número! Tente Novamente!\n")
+            print("You did not enter a number! Try again!\n")
 
+    print("\nThe area is:", (b * h) / 2)
 
-    print("\nA área é igual a:", (b*h)/2)
 
 while True:    
     while True:
-        print("\nBem vindo ao código de cálculo de áreas, escolha qual área você quer calcular:")
-        choice = input("r = Retangulo and Square / c = Círculo / t = triângulo ").strip().lower()
+        print("\nWelcome to the area calculation program! Choose which shape you want to calculate:")
+        choice = input("r = Rectangle/Square / c = Circle / t = Triangle ").strip().lower()
 
         if choice == "r":
             rectangle_square()
@@ -84,15 +86,15 @@ while True:
             triangle()
             break
         else:
-            print("Você digitou errado, tente novamente")
+            print("You typed it wrong, try again")
     
     while True:
-        choice_end = input("\nVocê chegou ao fim do programa, deseja reiniciar? (s/n) ")
-        if choice_end == "s":
-            print("Você escolheu reiniciar o programa!")
+        choice_end = input("\nYou reached the end of the program. Do you want to restart? (y/n) ").strip().lower()
+        if choice_end == "y":
+            print("You chose to restart the program!")
             break
         elif choice_end == "n":
-            print("Você escolheu fechar o programa! Tchau tchau! :)")
+            print("You chose to close the program! Bye bye! :)")
             exit()
         else:
-            print("Você digitou errado! Tente novamante!")
+            print("You typed it wrong! Try again!")
