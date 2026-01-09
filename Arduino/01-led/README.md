@@ -12,7 +12,7 @@ Esta pasta de exercícios contém os exercícios práticos e introdutórios do A
 | Nome | Quantidade | Componente |
 | :--- | :---: | :--- |
 | U1 | 1 |  Arduino Uno R3 |
-| D2 | 1 | Laranja LED |
+| D2 | 1 | Amarelo LED |
 | R1, R2 | 2 | 330 Ω Resistor |
 | D3 | 1 | Azul LED |
 
