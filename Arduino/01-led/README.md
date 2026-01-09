@@ -30,6 +30,6 @@ This exercises folder contains the practical and introductory Arduino exercises,
 | Name | Quantity | Component |
 | :--- | :---: | :--- |
 | U1 | 1 | Arduino Uno R3 |
-| D2 | 1 | Orange LED |
+| D2 | 1 | Yellow LED |
 | R1, R2 | 2 | 330 Ω Resistor |
 | D3 | 1 | Blue LED |
