@@ -1,4 +1,4 @@
-int ledA = 13;
+int ledA = 11;
 int ledB = 12;
 int builtinLed = LED_BUILTIN;
 
@@ -12,7 +12,7 @@ void loop() {
   digitalWrite(ledA, HIGH);
   digitalWrite(ledB, HIGH);
   digitalWrite(builtinLed, HIGH);
-  delay(1000);
+  delay(700);
 
   digitalWrite(ledA, LOW);
   digitalWrite(ledB, LOW);
