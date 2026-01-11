@@ -4,11 +4,11 @@
 
 1. Modifique o programa para que cada botão acenda um dos LEDs sem acionar o buzzer.
 
-2. Modifique o programa para o buzzer apitar quando o LED 1 acender.
+2. Modifique o programa para o buzzer apitar quando o LED Amarelo acender.
 
-3. Modifique o programa para o buzzer apitar quando o LED 2 acender.
+3. Modifique o programa para o buzzer apitar quando o LED Azul acender.
 
-4. Modifique o programa para o LED 1 acender e o buzzer apitar quando o botão 2 for pressionado, e o LED 2 acender e o buzzer apitar quando o botão 1 for pressionado.
+4. Modifique o programa para o LED Amarelo acender e o buzzer apitar quando o botão Azul for pressionado, e o LED Azul acender e o buzzer apitar quando o botão Amarelo for pressionado.
 
 5. Escreva **2 funções** que façam a leitura do estado de cada um dos botões.
 
@@ -67,11 +67,11 @@ void loop() {
 
 1. Modify the program so that each button turns on one LED without activating the buzzer.
 
-2. Modify the program so the buzzer beeps when LED 1 turns on.
+2. Modify the program so the buzzer beeps when Yellow LED turns on.
 
-3. Modify the program so the buzzer beeps when LED 2 turns on.
+3. Modify the program so the buzzer beeps when Blue LED turns on.
 
-4. Modify the program so LED 1 turns on and the buzzer beeps when button 2 is pressed, and LED 2 turns on and the buzzer beeps when button 1 is pressed.
+4. Modify the program so LED Yellow turns on and the buzzer beeps when button Blue is pressed, and LED Blue turns on and the buzzer beeps when button Yellow is pressed.
 
 5. Write **2 functions** that read the state of each button.
 
