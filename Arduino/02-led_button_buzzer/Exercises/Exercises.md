@@ -17,7 +17,7 @@
 7. Escreva **1 função** que tome a decisão de apitar ou não o buzzer.
 
 8. Copie o programa abaixo e execute a música.
-   Em seguida, retire a função `delay(5000);` e modifique o programa para que o **botão 1** inicie a música.
+   Em seguida, retire a função `delay(5000);` e modifique o programa para que um dos botões inicie a música.
 
 ```cpp
 #define DO 264
@@ -80,7 +80,7 @@ void loop() {
 7. Write **1 function** that decides whether the buzzer should beep or not.
 
 8. Copy the program below and run the music.
-   Then remove the `delay(5000);` function and modify the program so that **button 1** starts the music.
+   Then remove the `delay(5000);` function and modify the program so that one of the buttons starts the music.
 
 ```cpp
 #define DO 264
