@@ -11,7 +11,7 @@ Os exercícios trabalham com:
 - Controle de tempo com `delay()`
 - Organização do código com funções
 
-[🔗 **Link do circuito no Tinkercad:**](https://www.tinkercad.com/things/8qOUKlIyMJ5-traffic-light-list-of-exercises)
+[🔗 **Link do circuito no Tinkercad:**](https://www.tinkercad.com/things/1T4tezRrlhx-led-button-buzzer-list-of-exercises?sharecode=m86GQq_v0Tz-LPZlsm08FVadvxIGvzAOyVjAlwFJ2LI)
 
 ### Lista de componentes
 
@@ -38,7 +38,7 @@ The exercises cover:
 - Time control using `delay()`
 - Code organization using functions
 
-[🔗 **Tinkercad circuit link:**](https://www.tinkercad.com/things/8qOUKlIyMJ5-traffic-light-list-of-exercises)
+[🔗 **Tinkercad circuit link:**](https://www.tinkercad.com/things/1T4tezRrlhx-led-button-buzzer-list-of-exercises?sharecode=m86GQq_v0Tz-LPZlsm08FVadvxIGvzAOyVjAlwFJ2LI)
 
 ### Components list
 
