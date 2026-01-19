@@ -1,42 +1,53 @@
-# Exercícios de Arduino / Arduino Exercises
+# Exercícios de Arduino — Semáforos / Traffic Light Arduino Exercises
 
 ## Português
 
-Nesta pasta estão os exercícios práticos sobre **LED**, **Buzzer (Piezo)** e **Botão**.
-Os exemplos incluem esquemas simples para aprender entradas (botão) e saídas (LEDs e piezo), além de exemplos combinados.
+Nesta pasta estão os exercícios práticos sobre **semáforos com LEDs**, **botão de pedestres** e **buzzer (piezo)**.  
+Os exemplos simulam um **cruzamento com semáforo para carros e pedestres**, incluindo solicitação de travessia por botão e sinal sonoro de confirmação.
 
+Os exercícios trabalham com:
+- Saídas digitais (LEDs e buzzer)
+- Entrada digital (botão)
+- Controle de tempo com `delay()`
+- Organização do código com funções
 
-[🔗 **Link do circuito no Tinkercad:**](https://www.tinkercad.com/things/1T4tezRrlhx/editel?sharecode=ZhiDjyrdu7B8IT-gXDBFtyNTPW5a2LjkhjuLUfl7e5E)
+[🔗 **Link do circuito no Tinkercad:**](https://www.tinkercad.com/things/8qOUKlIyMJ5-traffic-light-list-of-exercises)
 
 ### Lista de componentes
 
-| Nome           | Quantidade | Componente          |
-| :------------- | :--------: | :------------------ |
-| U1             |      1     | Arduino Uno R3      |
-| R1, R2, R3, R4 |      4     | 330 Ω Resistor      |
-| D3             |      1     | LED Azul            |
-| D2             |      1     | LED Amarelo         |
-| S1, S2         |      2     | Botão (push button) |
-| PIEZO1         |      1     | Piezo / Buzzer      |
-
+| Nome        | Quantidade | Componente        |
+| :---------- | :--------: | :---------------- |
+| U1          |     1      | Arduino Uno R3    |
+| D1, D4      |     2      | LED Vermelho      |
+| D2, D5      |     2      | LED Verde         |
+| D3, D6      |     2      | LED Amarelo       |
+| R1–R7       |     7      | Resistor 330 Ω    |
+| PIEZO1      |     1      | Piezo (Buzzer)    |
+| S1          |     1      | Botão (Push Button) |
 
 ---
 
 ## English
 
-This folder contains practical exercises for **LED**, **Buzzer (Piezo)** and **Button**.
-Examples include simple wiring to learn inputs (button) and outputs (LEDs and piezo), plus combined examples.
+This folder contains practical exercises about **traffic lights using LEDs**, **pedestrian push button**, and **buzzer (piezo)**.  
+The examples simulate a **road crossing with car and pedestrian traffic lights**, including button-based crossing request and sound confirmation.
 
-[🔗 **Tinkercad circuit link:**](https://www.tinkercad.com/things/1T4tezRrlhx/editel?sharecode=ZhiDjyrdu7B8IT-gXDBFtyNTPW5a2LjkhjuLUfl7e5E)
+The exercises cover:
+- Digital outputs (LEDs and buzzer)
+- Digital input (button)
+- Time control using `delay()`
+- Code organization using functions
+
+[🔗 **Tinkercad circuit link:**](https://www.tinkercad.com/things/8qOUKlIyMJ5-traffic-light-list-of-exercises)
 
 ### Components list
 
-| Name           | Quantity | Component      |
-| :------------- | :------: | :------------- |
-| U1             |     1    | Arduino Uno R3 |
-| R1, R2, R3, R4 |     4    | 330 Ω Resistor |
-| D3             |     1    | Blue LED       |
-| D2             |     1    | Yellow LED     |
-| S1, S2         |     2    | Push button    |
-| PIEZO1         |     1    | Piezo / Buzzer |
-
+| Name        | Quantity | Component         |
+| :---------- | :------: | :---------------- |
+| U1          |    1     | Arduino Uno R3    |
+| D1, D4      |    2     | Red LED           |
+| D2, D5      |    2     | Green LED         |
+| D3, D6      |    2     | Yellow LED        |
+| R1–R7       |    7     | 330 Ω Resistor    |
+| PIEZO1      |    1     | Piezo (Buzzer)    |
+| S1          |    1     | Push Button       |
