@@ -3,7 +3,7 @@
 ## Português
 Esta pasta de exercícios contém os exercícios práticos e introdutórios do Arduino, onde eu deveria praticar a montagem de um circuito com LED externo.
 
-[🔗 **Link do circuito no Tinkercad:**](https://www.tinkercad.com/things/lOv7qX9Pm9X-experiencia-1-faculdade/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=MfIbQCFYUNq3kGrev-SFPAtc6yXrrSSl5hoqAaIwYtc)
+[🔗 **Link do circuito no Tinkercad:**]([https://www.tinkercad.com/things/lOv7qX9Pm9X-experiencia-1-faculdade/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=MfIbQCFYUNq3kGrev-SFPAtc6yXrrSSl5hoqAaIwYtc](https://www.tinkercad.com/things/lOv7qX9Pm9X-led-list-of-exercises?sharecode=iKEK7d9-0FPUEZRdhgoUF_1DLr-MDaOenZPSMCVLtnw))
 
 ### Componentes
 
@@ -21,7 +21,7 @@ Esta pasta de exercícios contém os exercícios práticos e introdutórios do A
 ## English
 This exercises folder contains the practical and introductory Arduino exercises, where I should practice assembling a circuit with an external LED.
 
-[🔗 **Tinkercad circuit link:**  ](https://www.tinkercad.com/things/lOv7qX9Pm9X-experiencia-1-faculdade/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=MfIbQCFYUNq3kGrev-SFPAtc6yXrrSSl5hoqAaIwYtc)
+[🔗 **Tinkercad circuit link:**  ]([https://www.tinkercad.com/things/lOv7qX9Pm9X-experiencia-1-faculdade/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard&sharecode=MfIbQCFYUNq3kGrev-SFPAtc6yXrrSSl5hoqAaIwYtc](https://www.tinkercad.com/things/lOv7qX9Pm9X-led-list-of-exercises?sharecode=iKEK7d9-0FPUEZRdhgoUF_1DLr-MDaOenZPSMCVLtnw))
 
 ### Components
 
