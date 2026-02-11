@@ -6,7 +6,7 @@ Nesta pasta estão os exercícios práticos sobre **LED**, **Buzzer (Piezo)** e 
 Os exemplos incluem esquemas simples para aprender entradas (botão) e saídas (LEDs e piezo), além de exemplos combinados.
 
 
-[🔗 **Link do circuito no Tinkercad:**](https://www.tinkercad.com/things/8qOUKlIyMJ5-traffic-light-list-of-exercises?sharecode=pq242kZyFUR9OE_VbrqBxrl8jjTaSvK9Cl9TX69Tsls)
+[🔗 **Link do circuito no Tinkercad:**](https://www.tinkercad.com/things/ioJSTtYce3b-led-button-buzzer-list-of-exercises)
 
 ### Lista de componentes
 
@@ -27,7 +27,7 @@ Os exemplos incluem esquemas simples para aprender entradas (botão) e saídas (
 This folder contains practical exercises for **LED**, **Buzzer (Piezo)** and **Button**.
 Examples include simple wiring to learn inputs (button) and outputs (LEDs and piezo), plus combined examples.
 
-[🔗 **Tinkercad circuit link:**](https://www.tinkercad.com/things/8qOUKlIyMJ5-traffic-light-list-of-exercises?sharecode=pq242kZyFUR9OE_VbrqBxrl8jjTaSvK9Cl9TX69Tsls)
+[🔗 **Tinkercad circuit link:**](https://www.tinkercad.com/things/ioJSTtYce3b-led-button-buzzer-list-of-exercises)
 
 ### Components list
 
