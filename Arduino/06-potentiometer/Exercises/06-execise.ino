@@ -57,7 +57,7 @@ void loop() {
   int level = readPotentiometer();
 
   level = map(level, 0, 1023, 0, 3);
-  controlLEDs(level)
+  controlLEDs(level);
 
   delay(100);
 }
