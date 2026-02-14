@@ -19,7 +19,7 @@ void loop() {
   readValue = analogRead(pwmPin);
   Serial.print(readValue);
 
-  level = map(readValue, 0, 1023, 1, 3);
+  level = map(readValue, 0, 1023, 0, 3);
   Serial.println(level);
 
   digitalWrite(ledPin1, level >= 1 ? HIGH : LOW);
