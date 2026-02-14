@@ -20,17 +20,11 @@
 5. **Função para leitura do potenciômetro**
    Transforme a **leitura do potenciômetro** em uma **função** (por exemplo: `int readPotentiometer()`).
 
-6. **Função para mudança de escala (mapeamento)**
-   Transforme a **mudança de escala (cálculo do valor lido)** em uma **função** que converta o valor do potenciômetro para a faixa usada no controle dos LEDs e do buzzer.
-
-7. **Função para controle dos LEDs**
+6. **Função para controle dos LEDs**
    Transforme o **controle de cada um dos LEDs** em uma **função** que receba o valor processado e decida quais LEDs devem acender.
 
-8. **Função para controle do buzzer**
+7. **Função para controle do buzzer**
    Transforme o **controle do buzzer** em uma **função** que receba o valor e decida quando o buzzer deve apitar.
-
-9. **Função para escrita no LED**
-   Transforme a **escrita no LED (digitalWrite / analogWrite)** em uma **função**, tornando o código mais organizado e reutilizável.
 
 ---
 
@@ -51,16 +45,10 @@
 5. **Function for potentiometer reading**
    Turn the **potentiometer reading** into a **function** (for example: `int readPotentiometer()`).
 
-6. **Function for scaling (mapping)**
-   Turn the **scaling calculation (value mapping)** into a **function** that converts the potentiometer value to the range used to control LEDs and the buzzer.
-
-7. **Function to control the LEDs**
+6. **Function to control the LEDs**
    Turn the **LED control logic** into a **function** that receives the processed value and decides which LEDs should be on.
 
-8. **Function to control the buzzer**
+7. **Function to control the buzzer**
    Turn the **buzzer control** into a **function** that receives the value and decides when the buzzer should beep.
-
-9. **Function for writing to the LED**
-   Turn the **LED write operation (digitalWrite / analogWrite)** into a **function**, making the code more organized and reusable.
 
 ---
