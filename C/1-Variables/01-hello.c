@@ -4,6 +4,6 @@ int main(void) {
     printf("Isso é um teste de 'printf'...\n");
     printf("Hello World\n");
     printf("This is a test about the 'printf'...\n");
-    print("test/teste");
+    printf("test/teste");
     return 0;
 }
