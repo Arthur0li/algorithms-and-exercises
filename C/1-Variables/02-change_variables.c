@@ -8,6 +8,8 @@ int main(void){
     printf("\nType the second number: ");
     scanf("%d",&number2);
 
+    //changing the variable values
+    
     number1 = number1 + number2;
     number2 = number1 - number2;
     number1 = number1 - number2;
