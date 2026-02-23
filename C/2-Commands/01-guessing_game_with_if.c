@@ -12,7 +12,7 @@ int main(void){
         number_guess = rand() % 101;
 
         printf("\nWelcome to the guessing game!\n");
-        printf("This code will try to guess the whole number that you type!\n\n");
+        printf("In this code you will have to guess the machine number!\n\n");
 
         do
         {
