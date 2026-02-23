@@ -15,5 +15,5 @@ int main(void){
     result = floor(limit/number);
     result = (result+1)*number;
 
-    printf("%f",result);
+    printf("The smallest multiple of an integer that is greater than a minimum limit is: %f",result);
 }
