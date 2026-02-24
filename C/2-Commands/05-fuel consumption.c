@@ -1,19 +1,5 @@
 #include<stdio.h>
-/* Receive via keyboard:
-- the **distance in km**
-- the **amount of liters of gasoline consumed**
 
-Calculate the consumption in **km/l** and write a message according to the table:
-
-| Consumption (km/l) | Message |
-
-|---------------:|--------------------|
-
-| less than 8 | Sell the car! |
-
-| between 8 and 14 | Economical! |
-
-| greater than 14 | Super economical! | */
 int main (void){
     char choice;
     
