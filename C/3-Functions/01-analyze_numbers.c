@@ -81,10 +81,10 @@ int main(void){
             else if (choice == 'n' || choice == 'N')
             {
                 printf("\nYou decided to stop running the code!");
-                printf("Goodbye! :D");
+                printf("\nGoodbye! :D");
             }
             else{
-                printf("You typed werong! Please, try again!\n");
+                printf("You typed wrong! Please, try again!\n");
             }
             
         } while (choice != 'y' && choice != 'Y' && choice != 'n' && choice != 'N');
