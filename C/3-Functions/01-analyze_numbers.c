@@ -1,14 +1,3 @@
-/*
-### ➕➖ Exercício 1 — Análise de Dois Números
-Escreva um programa que receba **dois números inteiros** e execute as seguintes funções:
-
-- ➕ Se os **dois números forem positivos**, retorne a **soma dos N números existentes entre eles**
-
-- ✖️ Se os **dois números forem negativos**, retorne a **multiplicação dos N números existentes entre eles**
-
-- ➗ Se o **primeiro número for positivo** e o **segundo negativo**, faça a **divisão entre eles**
-*/
-
 #include <stdio.h>
 
 // sum function
