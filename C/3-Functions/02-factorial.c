@@ -1,13 +1,3 @@
-/*
-Escreva um programa que receba um número **N** via teclado.  
-Crie uma função que retorne o resultado de N! (fatorial de N)**.  
-O resultado deve ser mostrado na função **`main()`**.
-
-**Exemplo:**  
-- N = `4`  
-- N! = `24`  
-*/
-
 #include <stdio.h>
 
 int factorial(int number){
