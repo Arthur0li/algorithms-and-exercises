@@ -1,11 +1,5 @@
 #include<stdio.h>
 
-/*Write a program to determine a person's age in years, months, and days.
-
-The program should receive the following via keyboard input:
-- the date of birth (day, month, and year)
-- the current date (day, month, and year)*/
-
 int calculation(int birth_day, int birth_month, int birth_year, int current_day, int current_month, int current_year){
     int age_years = current_year - birth_year;
     int age_months = current_month - birth_month;
