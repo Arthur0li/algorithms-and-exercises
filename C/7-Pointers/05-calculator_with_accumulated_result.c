@@ -1,55 +1,76 @@
 #include <stdio.h>
 
-void lerValor(int *v);
-void lerOperacao(char *op);
-void somar(int *res, int v);
-void subtrair(int *res, int v);
-void multiplicar(int *res, int v);
-void dividir(int *res, int v);
-void mostrarResultado(int res);
+void readValue(int *v);
+void readOperation(char *op);
+void add(int *res, int v);
+void subtractVal(int *res, int v);
+void multiply(int *res, int v);
+void divideVal(int *res, int v);
+void showResult(int res);
 
 int main(void) {
-    int n, valor, resultado = 0;
+    int n, value, result = 0;
     char oper;
+    char choice;
 
-    printf("Quantos valores? ");
-    scanf("%d", &n);
-    getchar();
+    do {
+        printf("Welcome to the calculator program!\n");
+        printf("This program applies operations to a running result.\n\n");
 
-    for (int i = 0; i < n; i++) {
-        lerValor(&valor);
-        lerOperacao(&oper);
-        if (oper == '=') {
-            mostrarResultado(resultado);
-            return 0;
+        printf("How many values? ");
+        scanf("%d", &n);
+        getchar();
+
+        for (int i = 0; i < n; i++) {
+            readValue(&value);
+            readOperation(&oper);
+            if (oper == '=') {
+                showResult(result);
+                return 0;
+            }
+            switch (oper) {
+                case '+': add(&result, value);            break;
+                case '-': subtractVal(&result, value);   break;
+                case '*': multiply(&result, value);      break;
+                case '/': divideVal(&result, value);     break;
+                default: printf("Invalid operation!\n");
+            }
         }
-        switch (oper) {
-            case '+': somar(&resultado, valor);    break;
-            case '-': subtrair(&resultado, valor); break;
-            case '*': multiplicar(&resultado, valor); break;
-            case '/': dividir(&resultado, valor);  break;
-            default: printf("Op inválida!\n");
-        }
-    }
-    mostrarResultado(resultado);
+        showResult(result);
+
+        do {
+            printf("\nDo you want to restart the program? (y/n): ");
+            scanf(" %c", &choice);
+            if (choice == 'y' || choice == 'Y') {
+                printf("\nRestarting the program...\n\n");
+            } else if (choice == 'n' || choice == 'N') {
+                printf("\nExiting the program...\n");
+            } else {
+                printf("\nInvalid input! Please enter 'y' or 'n'.\n");
+            }
+        } while (choice != 'y' && choice != 'Y' && choice != 'n' && choice != 'N');
+
+    } while (choice == 'y' || choice == 'Y');
+
+    printf("Program finished.\n");
     return 0;
 }
 
-void lerValor(int *v) {
-    printf("Valor: ");
+void readValue(int *v) {
+    printf("Value: ");
     scanf("%d", v);
 }
-void lerOperacao(char *op) {
-    printf("Op (+ - * / ou =): ");
+void readOperation(char *op) {
+    printf("Op (+ - * / or =): ");
     scanf(" %c", op);
 }
-void somar(int *r, int v)      { *r += v; }
-void subtrair(int *r, int v)   { *r -= v; }
-void multiplicar(int *r, int v){ *r *= v; }
-void dividir(int *r, int v) {
-    if (v!=0) *r /= v;
-    else printf("Div/0 não permitida!\n");
+void add(int *r, int v)            { *r += v; }
+void subtractVal(int *r, int v)   { *r -= v; }
+void multiply(int *r, int v)      { *r *= v; }
+void divideVal(int *r, int v) {
+    if (v != 0) *r /= v;
+    else printf("Div/0 not allowed!\n");
 }
-void mostrarResultado(int res) {
-    printf("Resultado: %d\n", res);
+void showResult(int res) {
+    printf("Result: %d\n", res);
 }
