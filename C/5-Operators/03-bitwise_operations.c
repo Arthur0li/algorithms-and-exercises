@@ -1,37 +1,57 @@
 #include <stdio.h>
 
-void print_results(int a, int b, int and_result, int or_result, int xor_result) {
-    printf("Input values: %d and %d\n", a, b);
-    printf("AND result: %d (0x%x)\n", and_result, and_result);
-    printf("OR result: %d (0x%x)\n", or_result, or_result);
-    printf("XOR result: %d (0x%x)\n\n", xor_result, xor_result);
-}
+#define SIZE 4
 
-int main (void){
+struct person {
+    char name[50];
+    float weight; // kg
+    float height; // meters
+};
+
+void receiveData(struct person *p, int n);
+void printData(const struct person *p, int n);
+void calculateBMI(const struct person *p, int n);
+
+int main(void) {
+    struct person people[SIZE];
+    int option;
     char choice;
-    do{
-        int n1, n2;
-        printf("welcome to the bitwise operations program!\n");
-        printf("This code will perform bitwise AND, OR, and XOR operations on two integers!\n\n");
-        
-        printf("Enter the first integer: ");
-        scanf("%d", &n1);
-        printf("Enter the second integer: ");
-        scanf("%d", &n2);
+    do {
+        printf("Welcome to the BMI registry program!\n");
+        printf("This program stores data for %d people and can calculate their BMI.\n\n", SIZE);
 
-        int and_result = n1 & n2;
-        int or_result = n1 | n2;
-        int xor_result = n1 ^ n2;
-
-        printf("\nThe program will now display the results of the bitwise operations in both decimal and hexadecimal formats:\n");
-        print_results(n1, n2, and_result, or_result, xor_result);
+        do {
+            printf("\nMenu:\n"
+                   "1 - Receive all data\n"
+                   "2 - Print all data\n"
+                   "3 - Calculate BMI for all people\n"
+                   "4 - Exit\n"
+                   "Choose an option: ");
+            if (scanf("%d", &option) != 1) break;
+            getchar(); // discard pending '\n'
+            switch (option) {
+                case 1:
+                    receiveData(people, SIZE);
+                    break;
+                case 2:
+                    printData(people, SIZE);
+                    break;
+                case 3:
+                    calculateBMI(people, SIZE);
+                    break;
+                case 4:
+                    printf("Exiting...\n");
+                    break;
+                default:
+                    printf("Invalid option!\n");
+            }
+        } while (option != 4);
 
         printf("You have reached the end of the program!\n");
-        do
-        {
+        do {
             printf("Do you want to restart the program? (y/n): ");
             scanf(" %c", &choice);
-            if(choice == 'y' || choice == 'Y'){
+            if (choice == 'y' || choice == 'Y') {
                 printf("\nRestarting the program...\n\n");
             } else if (choice == 'n' || choice == 'N') {
                 printf("\nExiting the program...\n");
@@ -39,5 +59,42 @@ int main (void){
                 printf("\nInvalid input! Please enter 'y' or 'n'.\n");
             }
         } while (choice != 'y' && choice != 'Y' && choice != 'n' && choice != 'N');
-    }while (choice == 'y' || choice == 'Y');
+    } while (choice == 'y' || choice == 'Y');
+
+    return 0;
+}
+
+void receiveData(struct person *p, int n) {
+    for (int i = 0; i < n; i++) {
+        printf("\nPerson %d\n", i + 1);
+        printf("Name: ");
+        scanf(" %49[^\n]", p[i].name);
+        printf("Weight (kg): ");
+        scanf("%f", &p[i].weight);
+        printf("Height (m): ");
+        scanf("%f", &p[i].height);
+        getchar(); // discard '\n'
+    }
+}
+
+void printData(const struct person *p, int n) {
+    for (int i = 0; i < n; i++) {
+        printf("\n--- Person %d ---\n", i + 1);
+        printf("Name:   %s\n", p[i].name);
+        printf("Weight: %.2f kg\n", p[i].weight);
+        printf("Height: %.2f m\n", p[i].height);
+    }
+}
+
+void calculateBMI(const struct person *p, int n) {
+    for (int i = 0; i < n; i++) {
+        printf("\n--- BMI for Person %d ---\n", i + 1);
+        printf("Name: %s\n", p[i].name);
+        if (p[i].height <= 0.0f) {
+            printf("Invalid height (<= 0). Cannot calculate BMI.\n");
+            continue;
+        }
+        float bmi = p[i].weight / (p[i].height * p[i].height);
+        printf("BMI: %.2f\n", bmi);
+    }
 }
