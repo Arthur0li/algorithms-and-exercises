@@ -31,6 +31,7 @@ void loop() {
   // read the state of the buttons and print it to the serial monitor
   button_yellow_State = read_button(button_yellow_Pin);
 
+  // if the yellow button is pressed, turn on the yellow LED, otherwise turn it off
   if (button_yellow_State == HIGH) {
     digitalWrite(led_yellow_Pin, LOW);
   } else {
