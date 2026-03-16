@@ -13,11 +13,13 @@ void setup() {
 
 // function that repeats indefinitely when the arduino is powered on
 void loop() {
+  // turn on the LEDs for 700 milliseconds
   digitalWrite(ledA, HIGH);
   digitalWrite(ledB, HIGH);
   digitalWrite(builtinLed, HIGH);
   delay(700);
 
+  // turn off the LEDs for 4 seconds
   digitalWrite(ledA, LOW);
   digitalWrite(ledB, LOW);
   digitalWrite(builtinLed, LOW);
