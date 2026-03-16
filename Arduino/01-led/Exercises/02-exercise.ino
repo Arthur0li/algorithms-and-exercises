@@ -25,6 +25,3 @@ void loop(){
     digitalWrite(builtinLed,LOW);
     delay(4000);
 }
-
-//test
-//second test
