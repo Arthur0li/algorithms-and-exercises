@@ -1,3 +1,4 @@
+// set the pin for the LM35 temperature sensor, the variable to store the temperature value, the pins for the LEDs and the pin for the buzzer
 int lm35Pin = A0;
 float temperature;
 int ledPin = 3;
@@ -5,7 +6,9 @@ int ledPin2 = 4;
 int ledPin3 = 5;
 int buzzer = 6;
 
+// function that runs once when you press reset or power the board
 void setup() {
+  // set the LED and buzzer pins as output and start the serial communication for debugging
   pinMode(ledPin, OUTPUT);
   pinMode(ledPin2, OUTPUT);
   pinMode(ledPin3, OUTPUT);
@@ -13,11 +16,14 @@ void setup() {
   Serial.begin(9600);
 }
 
+// function that repeats indefinitely when the arduino is powered on
 void loop() {
+  // read the value from the LM35 sensor, convert it to a temperature in Celsius and print it to the serial monitor for debugging
   temperature = (float(((((analogRead(lm35Pin) * 5.0) / 1023) * 1000) - 500) / 10));
   Serial.print("Temperature: ");
   Serial.println(temperature);
 
+  // if the temperature is above 70 degrees Celsius, turn on all the LEDs and the buzzer, if it's above 50 degrees Celsius, turn on two LEDs, if it's above 30 degrees Celsius, turn on one LED and if it's below or equal to 30 degrees Celsius, turn off all the LEDs and the buzzer
   if (temperature > 70) {
     digitalWrite(ledPin, HIGH);
     digitalWrite(ledPin2, HIGH);
