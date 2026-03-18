@@ -1,3 +1,4 @@
+// set the pins of the LEDs
 int red1 = 1;  
 int yellow1 = 2;
 int green1 = 3; 
@@ -5,7 +6,9 @@ int red2 = 11;
 int yellow2 = 12;
 int green2= 13;  
 
+// function that runs once when you press reset or power the board
 void setup() {
+	// set the LEDs pins as output
     pinMode(red1, OUTPUT);
     pinMode(yellow1, OUTPUT);
     pinMode(green1, OUTPUT);
@@ -14,7 +17,9 @@ void setup() {
     pinMode(green2, OUTPUT);
 }
 
+// function that repeats indefinitely when the arduino is powered on
 void loop() {
+	// turn on the green LEDs for 1.5 seconds, then turn on the yellow LEDs for 1.5 seconds, then turn on the red LEDs for 1.5 seconds, then turn off all the LEDs for 1.5 seconds and repeat this cycle indefinitely
   	digitalWrite(green1, HIGH);
   	digitalWrite(yellow1, LOW);
   	digitalWrite(red1, LOW);
@@ -25,6 +30,7 @@ void loop() {
     
     delay(1500); 
     
+	// turn on the yellow LEDs for 1.5 seconds, then turn on the red LEDs for 1.5 seconds, then turn off all the LEDs for 1.5 seconds and repeat this cycle indefinitely
   	digitalWrite(green1, LOW);
   	digitalWrite(yellow1, HIGH);
   	digitalWrite(red1, LOW);
@@ -34,7 +40,8 @@ void loop() {
   	digitalWrite(red2, HIGH);
     
     delay(1500);
-  
+	
+	// turn on the red LEDs for 1.5 seconds, then turn off all the LEDs for 1.5 seconds and repeat this cycle indefinitely
   	digitalWrite(green1, LOW);
   	digitalWrite(yellow1, LOW);
   	digitalWrite(red1, HIGH);
@@ -45,6 +52,7 @@ void loop() {
   
   	delay(1500);
   
+	// turn off all the LEDs for 1.5 seconds and repeat this cycle indefinitely
   	digitalWrite(green1, LOW);
   	digitalWrite(yellow1, LOW);
   	digitalWrite(red1, HIGH);
