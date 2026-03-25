@@ -1,4 +1,4 @@
-# 🐍 Python While Exercises
+# 🐍 Python Turple Exercises
 
 ## 🇧🇷 Português (PT-BR)
 
