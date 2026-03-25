@@ -1,78 +1,61 @@
-# 🐍 Python Basic Exercises
+# 🐍 Python Basic Exercises (Basic Folder)
 
-This file contains a list of basic Python exercises for practice. These exercises are part of the **Basic** folder.
+## 🇧🇷 Português (PT-BR)
 
----
+1. Faça um algoritmo que use o comando `print` para exibir "Hello, World".
 
-## 1. Hello World
+2. Faça um algoritmo que troque os valores de duas variáveis.
 
-Use the `print` function to display a "Hello World" message.
+3. Faça um algoritmo que receba um número do usuário e mostre o sucessor.
 
----
+4. Faça um algoritmo que converta metros para centímetros a partir de uma quantidade informada pelo usuário.
 
-## 2. Swap Variables
+5. Faça um algoritmo que receba a base e a altura de um retângulo e calcule a sua área.
 
-Create a program that swaps the values of two variables.
+6. Faça um algoritmo que receba os anos, meses e dias vividos pelo usuário e converta tudo para dias.
 
----
+7. Faça um algoritmo em que o custo de um carro novo ao consumidor seja calculado a partir da soma do custo de fábrica com a porcentagem do distribuidor e os impostos (aplicados sobre o custo de fábrica).
 
-## 3. Successor of a Number
+   Considerando que a porcentagem do distribuidor é de 28% e os impostos são de 45%,
+   faça um algoritmo que leia o custo de fábrica de um carro, calcule e mostre o custo final ao consumidor.
 
-Write a program that receives a number from the user and displays its successor.
+8. Faça um algoritmo que converta Fahrenheit para Celsius.
 
----
+9. Faça um algoritmo que calcule e mostre a quantidade de lâmpadas necessárias para iluminar um cômodo de uma residência.
 
-## 4. Meters to Centimeters
+   Dados de entrada: potência da lâmpada utilizada (em watts) e as dimensões do cômodo (largura e comprimento, em metros).
 
-Create a program that converts a value in meters (provided by the user) into centimeters.
+   Considere que a potência necessária é de 18 watts por metro quadrado.
 
----
-
-## 5. Rectangle Area
-
-Write a program that receives the base and height of a rectangle and calculates its area.
+10. Faça um algoritmo que calcule a área de uma circunferência.
 
 ---
 
-## 6. Age in Days
+## 🇺🇸 English (EN)
 
-Create a program that receives the user's age in years, months, and days, and converts everything into total days.
+1. Write an algorithm that uses the `print` command to display "Hello, World".
 
----
+2. Write an algorithm that swaps the values of two variables.
 
-## 7. Car Final Cost
+3. Write an algorithm that receives a number from the user and displays its successor.
 
-The cost of a new car to the consumer is the sum of the factory cost plus the distributor’s percentage and taxes (both applied to the factory cost).
+4. Write an algorithm that converts meters to centimeters based on a value provided by the user.
 
-* Distributor percentage: 28%
-* Taxes: 45%
+5. Write an algorithm that receives the base and height of a rectangle and calculates its area.
 
-Write a program that reads the factory cost of a car, calculates, and displays the final cost to the consumer.
+6. Write an algorithm that receives the years, months, and days lived by the user and converts everything into days.
 
----
+7. Write an algorithm in which the cost of a new car to the consumer is the sum of the factory cost plus the distributor’s percentage and taxes (applied to the factory cost).
 
-## 8. Fahrenheit to Celsius
+   Considering the distributor’s percentage is 28% and taxes are 45%,
+   write an algorithm that reads the factory cost of a car, calculates, and displays the final cost to the consumer.
 
-Write a program that converts a temperature from Fahrenheit to Celsius.
+8. Write an algorithm that converts Fahrenheit to Celsius.
 
----
+9. Write an algorithm that calculates and prints the number of light bulbs needed to illuminate a room in a residence.
 
-## 9. Light Bulbs Calculation
+   Input data: bulb power (in watts), and room dimensions (width and length, in meters).
 
-Write an algorithm to calculate the number of light bulbs needed to illuminate a room.
+   Consider that the required power is 18 watts per square meter.
 
-**Input:**
-
-* Bulb power (in watts)
-* Room width (in meters)
-* Room length (in meters)
-
-**Consider:**
-
-* Required power = 18 watts per square meter
-
----
-
-## 10. Circle Area
-
-Write a program that calculates the area of a circle.
+10. Write an algorithm that calculates the area of a circumference.
