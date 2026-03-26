@@ -1,5 +1,7 @@
+# Display a message, store the value entered by the user and convert it to an integer.
 shape = int(input("Type the number of sides of your shape (between 3 and 10): "))
 
+# checks the number of sides and displays which figure it is.
 if shape < 3 or shape > 10:
     print("\nError: please type a number between 3 and 10.")
 

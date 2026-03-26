@@ -1,5 +1,7 @@
+# Display a message, store the value entered by the user and convert it to an integer.
 year = int(input("Type a year: "))
 
+# checks the year entered by the user and displays the Chinese zodiac sign corresponding to that year.
 if year < 0:
     print("\nError: please type a number greater than -1.")
 

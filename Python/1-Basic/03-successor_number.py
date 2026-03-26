@@ -1,12 +1,5 @@
-'''
-The "input" command allowed displaying a message to the user and receiving the information that the user would type.
-In this file we can see the command being used to display a message and receive a number!
-The input command has a drawback; by default, it returns a string.
-To change this, we must type the variable type before the input.
-
-In this code the user will type, the code will convert the number to a float, and after this the code will display the final result!
-'''
-
+# Display a message, store the value entered by the user and convert it to an float.
 number = float(input("Type the number, please: "))
 
+# Display a message and the final result
 print("\nThe successor of the", number, "is", number - 1)

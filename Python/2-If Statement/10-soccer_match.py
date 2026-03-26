@@ -1,9 +1,11 @@
+# Display a message and store the value entered by the user.
 team_1 = input("Type the name of the home team: ")
 team_2 = input("Type the name of the visiting team: ")
 
 number_1 = int(input("\nNow type number of goals scored by the home team: "))
 number_2 = int(input("Now type number of goals scored by the visiting team: "))
 
+# checks and displays the winner of the match
 if number_1 > number_2:
     print("\nThe", team_1, "won", number_1, "-", number_2, "against", team_2)
 
