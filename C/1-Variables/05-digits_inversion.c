@@ -1,5 +1,7 @@
+// the stdio.h header file is required to use the basic functions.
 #include<stdio.h>
 
+// the main function is the entry point of the program.
 int main(void){
     char number[4];
 

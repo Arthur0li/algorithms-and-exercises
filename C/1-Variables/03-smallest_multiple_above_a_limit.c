@@ -1,6 +1,10 @@
+// the headers files is required to use the basic functions.
 #include<stdio.h>
 #include<math.h>
+
+// the main function is the entry point of the program.
 int main(void){
+    // declaring the variables
     float number;
     float limit;
     float result;
