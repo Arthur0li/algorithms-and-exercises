@@ -1,11 +1,14 @@
+# a while loop that will run as long as the user wants
 while True:  
     result = 0  
 
+    # Try to receive a number; if the number isn't greater tha 0 or the user doesn't type a number, the code will display a error message and try again
     while True:
         try:
             print("\nWelcome to the sum program!")
             print("In this program, you can sum as many numbers as you want!\n")
 
+            # Try to receive a number; if the number isn't greater tha 0 or the user doesn't type a number, the code will display a error message and try again
             quantity = int(input("Enter the number of values you want to sum: "))
             if quantity <= 0:
                 print("You entered a number less than or equal to 0 :( ...")
@@ -16,6 +19,7 @@ while True:
             print("You did not enter a number :(")
             print("Please try again!")
 
+    # Try to receive a number; if the number isn't greater than 0 or the user doesn't type a number, the code will display a error message and try again
     for i in range(quantity):
         while True:
             try:
@@ -30,6 +34,7 @@ while True:
 
     print(f"\nThe sum of the {quantity} numbers is: {result}\n")
 
+    # a while loop that will ask the user if they want to restart the code
     while True:
         choice = input("Do you want to run the program again? (y/n): ").lower()
         if choice == "y":
