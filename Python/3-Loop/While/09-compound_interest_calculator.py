@@ -1,12 +1,17 @@
+# import the pow function to calculate exponentiation (compound interest formula).
 from math import pow
 
 print('This is a compound interest calculator. / Esta é uma calculadora de juros compostos.')
 
+# ask the user to choose a language (English or Portuguese).
 language = input('Type "en" for English or "pt" for Portuguese / Digite "en" para inglês ou "pt" para português: ').lower()
+
+# keep asking until the user types a valid option.
 while language not in ['en', 'pt']:
     print('Invalid option / Opção inválida.')
     language = input('Type "en" for English or "pt" for Portuguese / Digite "en" para inglês ou "pt" para português: ').lower()
 
+# define the messages based on the selected language.
 if language == 'en':
     msg_capital = "Enter the amount of your capital: "
     msg_tax = "Enter the monthly interest rate (in percentage): "
@@ -20,19 +25,32 @@ else:
     msg_invalid = "Você inseriu um número inválido, insira um valor maior que 0: "
     msg_result = "Este é o retorno: "
 
+# ask the user to enter the capital amount.
 capital = float(input("\n" + msg_capital))
+
+# keep asking until the value is greater than 0.
 while capital <= 0:
     capital = float(input(msg_invalid))
 
+# ask the user to enter the interest rate.
 tax = float(input(msg_tax))
+
+# keep asking until the value is greater than 0.
 while tax <= 0:
     tax = float(input(msg_invalid))
+
+# convert the percentage to decimal.
 tax = tax / 100 
 
+# ask the user to enter the number of months.
 months = int(input(msg_months))
+
+# keep asking until the value is greater than 0.
 while months <= 0:
     months = int(input(msg_invalid))
 
+# calculate the final amount using compound interest formula.
 amount = capital * pow(1 + tax, months)
 
+# show the result formatted with 2 decimal places.
 print(f"{msg_result}{amount:.2f}")
