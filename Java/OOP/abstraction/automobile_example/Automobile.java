@@ -1,23 +1,24 @@
 package abstraction.automobile_example;
 
-// O que estamos fazendo aqui?
+// importing the window library
+import javax.swing.JOptionPane;
 
-//Lembrar de como criar uma classe
-public class Automobile{
+public class Automobile {
 
-    // atributos da classe, ou variável de instância
-    String marca;
-    String cor;
-    String modelo;
-    double preco;
+    // class attributes, or instance variables
+    String brand;
+    String color;
+    String model;
+    double price;
 
-    // Não entendi o que é isso aqui... é o método?
-    public void Informa_Automovel(){
-
-        // Lembrar do comando de print
-        System.out.println("MARCA: " + marca);
-        System.out.println("COR: " + cor);
-        System.out.println("MODELO: " + modelo);
-        System.out.println("PREÇO: " + preco);
+    // This is a method that will show the info that the user typed
+    public void showAutomobileInfo() {
+        //command that display the message in a window
+        JOptionPane.showMessageDialog(null,
+            "The car brand: " + brand +
+            "\nThe car color: " + color +
+            "\nThe car model: " + model +
+            "\nThe car price: " + price
+        );
     }
 }
