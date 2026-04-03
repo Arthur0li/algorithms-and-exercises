@@ -2,12 +2,12 @@
 package encapsulation.access_encapsulation2;
 
 // Importing the class from another package
-import encapsulation.access_encapsulation.Acess_number;
+import encapsulation.access_encapsulation.Access_number;
 
 public class Verify2 {
     public static void main(String[] args) {
         // Creating an object of the class Acess_number
-        Acess_number key = new Acess_number();
+        Access_number key = new Access_number();
 
         /* key.a = 10; → NOT allowed
            'a' is package-private, so it cannot be accessed from another package */

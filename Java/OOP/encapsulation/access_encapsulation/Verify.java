@@ -3,7 +3,7 @@ package encapsulation.access_encapsulation;
 public class Verify {
     public static void main(String[] args) {
         // Creating an object of the class Acess_number
-        Acess_number key = new Acess_number();
+        Access_number key = new Access_number();
 
         // Direct access is allowed because:
         // 'a' is package-private and we are in the same package
