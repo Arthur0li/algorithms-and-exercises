@@ -1,6 +1,6 @@
 package encapsulation.access_encapsulation;
 
-public class Acess_number {
+public class Access_number {
     int a;          // package-private: accessible only within the same package
     public int b;   // public: accessible from any class in any package
     private int c;  // private: accessible only داخل this class
