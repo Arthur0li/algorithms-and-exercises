@@ -2,21 +2,20 @@ package constructor_method.lesson_plan;
 
 import javax.swing.JOptionPane;
 
-public class plan {
+public class Plan {
     public static void main(String[] args) {
 
-        String materia_user = JOptionPane.showInputDialog("Digite a matéria:");
-        String conteudo_user = JOptionPane.showInputDialog("Digite o conteúdo:");
-        String criterio_user = JOptionPane.showInputDialog("Digite o critério:");
-        String bibliografia_user = JOptionPane.showInputDialog("Digite a bibliografia:");
+        String subjectUser = JOptionPane.showInputDialog("Enter the subject:");
+        String contentUser = JOptionPane.showInputDialog("Enter the content:");
+        String criteriaUser = JOptionPane.showInputDialog("Enter the criteria:");
+        String bibliographyUser = JOptionPane.showInputDialog("Enter the bibliography:");
 
-        create_plan plan1 = new create_plan(materia_user, conteudo_user, criterio_user, bibliografia_user);
+        CreatePlan plan1 = new CreatePlan(subjectUser, contentUser, criteriaUser, bibliographyUser);
 
-        JOptionPane.showMessageDialog(null, 
-        "Materia: " + plan1.getMateria() +
-        "\nConteudo: " + plan1.getConteudo() + 
-        "\nCriterio: " + plan1.getCriterio_avaliacao() + 
-        "\nBibliografia: " + plan1.getBibliografia());
+        JOptionPane.showMessageDialog(null,
+            "Subject: " + plan1.getSubject() +
+            "\nContent: " + plan1.getContent() +
+            "\nCriteria: " + plan1.getEvaluation_criteria() +
+            "\nBibliography: " + plan1.getBibliography());
     }
 }
-
