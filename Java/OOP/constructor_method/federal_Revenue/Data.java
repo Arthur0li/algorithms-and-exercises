@@ -1,38 +1,45 @@
 package constructor_method.federal_Revenue;
 
 public class Data {
-    String nome;
-    int cpf, cnpj, cartao;
+    String name, cpf, cnpj, card;
 
-    public void setNome(String nome){
-        this.nome = nome;
+    // Set the name
+    public void setName(String name){
+        this.name = name;
     }
 
-    public void setCPF(int cpf){
+    // Set the CPF
+    public void setCPF(String cpf){
         this.cpf = cpf;
     }
 
-    public void setCNPJ(int cnpj){
+    // Set the CNPJ
+    public void setCNPJ(String cnpj){
         this.cnpj = cnpj;
     }
 
-    public void setCartao(int cartao){
-        this.cartao = cartao;
+    // Set the card
+    public void setCard(String card){
+        this.card = card;
     }
 
-    public String getNome(){
-        return nome;
+    // Get the name
+    public String getName(){
+        return name;
     }
 
-    public int getCPF(){
+    // Get the CPF
+    public String getCPF(){
         return cpf;
     }
 
-    public int getCNPJ(){
+    // Get the CNPJ
+    public String getCNPJ(){
         return cnpj;
     }
 
-    public int getcCartao(){
-        return cartao;
+    // Get the card
+    public String getCard(){
+        return card;
     }
 }
