@@ -18,6 +18,6 @@ public class MobileDevice {
     }
 
     public void identifyUser(String user) {
-        this.user = user;
+        //this.user = user;
     }
 }
