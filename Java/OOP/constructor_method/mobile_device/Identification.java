@@ -24,6 +24,7 @@ public class Identification {
            will show the last assigned value.
         */
 
+        /*
         System.out.println("phone number " + a.numero);
         System.out.println("phone user " + a.usuario);
 
@@ -35,6 +36,7 @@ public class Identification {
 
         System.out.println("phone DDD " + b.DDD);
         System.out.println("phone DDD " + a.DDD);
+         */
     }
 }
 
