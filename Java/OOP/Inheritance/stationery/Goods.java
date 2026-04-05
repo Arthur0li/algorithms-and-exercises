@@ -1,10 +1,11 @@
 package Inheritance.stationery;
 
 public class Goods {
-        private String caderno;
+    private String caderno;
     private String lápis;
-    Goods( )
-    {System.out.println("acesso ao método construtor padrão da superclasse Papeleria"); }
+    Goods( ){
+        System.out.println("acesso ao método construtor padrão da superclasse Papeleria"); 
+    }
 
     Goods(String lápis){
         this.lápis = lápis;

@@ -4,8 +4,9 @@ public class Goods2 extends Goods{
     private double preco_caderno;
     private int quantidade_caixas_lapis;
 
-    Goods2 ( )
-    {super();}
+    Goods2 ( ){
+        super();
+    }
 
     Goods2(double preco_caderno,  int quantidade_caixas_lapis ){
         this.preco_caderno = preco_caderno;
