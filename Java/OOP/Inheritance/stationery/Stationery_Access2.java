@@ -11,8 +11,7 @@ public class Stationery_Access2 {
         Goods b = new Goods("lápis de cor");
         System.out.println("lápis tipo: " + b.get_lapis() + "\n");
 
-        //segundo acesso ao método construtor padrão da Goods
-        Goods2 c = new Goods2( );
+        
 
         /*terceiro acesso ao método construtor padrão da Goods"
          * provocado automaticamente por causa da herança */
