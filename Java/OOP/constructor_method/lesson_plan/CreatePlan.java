@@ -17,26 +17,6 @@ public class CreatePlan {
         this.bibliography = bibliography;
     }
 
-    // Set the bibliography
-    public void setBibliography(String bibliography) {
-        this.bibliography = bibliography;
-    }
-
-    // Set the content
-    public void setContent(String content) {
-        this.content = content;
-    }
-
-    // Set the evaluation criteria
-    public void setEvaluation_criteria(String evaluation_criteria) {
-        this.evaluation_criteria = evaluation_criteria;
-    }
-
-    // Set the subject
-    public void setSubject(String subject) {
-        this.subject = subject;
-    }
-
     // Get the bibliography
     public String getBibliography() {
         return bibliography;
