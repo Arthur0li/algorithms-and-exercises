@@ -24,10 +24,12 @@ Cada conteúdo segue uma estrutura padronizada para facilitar a navegação:
 
 ```
 topic-name/
- ├── exercicios/
- ├── circuit.png
- ├── scheme.pdf
- └── README.md
+├── exercise/
+│ ├── n-exercise.ino
+│ └── README.md
+├── circuit.png
+├── scheme.pdf
+└── README.md
 ```
 
 ### 📌 Description / Descrição
