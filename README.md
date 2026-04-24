@@ -27,6 +27,18 @@ Each exercise folder may contain a `README.md` describing the task, context, and
 * Build consistency through regular problem-solving
 * Track learning progress over time
 
+## 🩹 Contributions
+
+This repository accepts simple pull requests, such as:
+
+- spelling and grammar corrections
+- documentation improvements
+- minor adjustments to examples
+- simple bug fixes
+
+If you want to contribute, open an issue or submit a pull request with a clear description of the changes.
+All respectful contributions are welcome.
+
 ---
 
 # 📚 Algoritmos e Exercícios
@@ -57,3 +69,14 @@ Cada pasta de exercício pode conter um `README.md` com o enunciado, contexto e 
 * Praticar sintaxe em várias linguagens
 * Desenvolver consistência através da prática
 * Acompanhar o progresso de aprendizado ao longo do tempo
+
+## 🩹 Contribuições
+
+Este repositório aceita pull requests simples, como:
+- correções de ortografia e gramática
+- melhorias na documentação
+- ajustes pequenos em exemplos
+- correções de bugs simples
+
+Se quiser contribuir, abra uma issue ou envie um pull request com uma descrição clara das mudanças.
+Toda contribuição respeitosa é bem-vinda.
