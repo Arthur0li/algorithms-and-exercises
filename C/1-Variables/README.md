@@ -1,7 +1,3 @@
-Ficou uma lista bem legal — dá pra transformar isso num README bem organizado e com cara de portfólio. Aqui está adaptado exatamente no estilo que você pediu:
-
----
-
 # 💻 Exercícios de Linguagem C / C Language Exercises
 
 ## Português (PT-BR)
@@ -63,7 +59,3 @@ Ficou uma lista bem legal — dá pra transformar isso num README bem organizado
    **Example:**
    Input: `123`
    Output: `321`
-
----
-
-Se quiser, posso dar um próximo passo e deixar isso ainda mais forte pra portfólio (com seções tipo **“Como executar”**, **“Tecnologias”**, ou até exemplos de código em C**).
