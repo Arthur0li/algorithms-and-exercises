@@ -35,6 +35,29 @@
    Os valores devem ser **ordenados em ordem crescente durante a inserção**.
    Ao final, exiba o vetor com todos os valores **ordenados**.
 
+4. **Comprimento da string**
+   Escreva um programa que receba uma **string de até 40 caracteres** na função `main()`.
+   Crie uma função que calcule o **comprimento da string** e retorne o valor para ser exibido na `main()`.
+
+   ⚠️ Regras:
+
+   * o vetor deve ser declarado como **variável global**
+   * **não utilizar funções de biblioteca**
+
+5. **Comparação de duas strings**
+   Escreva um programa que receba **duas strings de até 10 caracteres** na função `main()`.
+   Crie uma função que compare as strings e retorne:
+
+   * `1` → se forem **iguais**
+   * `0` → se forem **diferentes**
+
+   O resultado deve ser exibido na função `main()`.
+
+   ⚠️ Regras:
+
+   * os vetores devem ser declarados como **variáveis globais**
+   * **não utilizar funções de biblioteca**
+
 ---
 
 ## English (EN)
@@ -71,3 +94,26 @@
    Write a program that reads **10 integers** from input.
    The values must be **sorted in ascending order as they are entered**.
    At the end, display the array with all values **sorted**.
+
+4. **String length**
+   Write a program that reads a **string of up to 40 characters** in the `main()` function.
+   Create a function that calculates the **length of the string** and returns the value to be displayed in `main()`.
+
+   ⚠️ Rules:
+
+   * the array must be declared as a **global variable**
+   * **do not use library functions**
+
+5. **String comparison**
+   Write a program that reads **two strings of up to 10 characters** in the `main()` function.
+   Create a function to compare them and return:
+
+   * `1` → if they are **equal**
+   * `0` → if they are **different**
+
+   The result must be displayed in `main()`.
+
+   ⚠️ Rules:
+
+   * the arrays must be declared as **global variables**
+   * **do not use library functions**
