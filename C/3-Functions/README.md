@@ -29,12 +29,7 @@
 
    Utilize **`return`** para retornar os resultados e exiba todos na função `main()`.
 
-4. **Operações com N valores (if-else)**
-   Escreva um programa que receba **N valores inteiros** via teclado na função `main()`.
-   Implemente uma **calculadora com as quatro operações básicas**, utilizando **`if-else`**.
-   Cada operação deve ser feita em uma **função** e o **resultado acumulado** deve ser exibido ao final.
-
-5. **Calculadora com switch e funções**
+4. **Calculadora com switch e funções**
    Escreva um programa semelhante ao anterior, mas utilizando o comando **`switch`**.
    As operações devem ser implementadas como **funções**, e o **resultado acumulado** deve ser exibido na `main()`.
 
@@ -69,14 +64,6 @@
 
    Use **`return`** to return the results and display all outputs in `main()`.
 
-4. **Operations with N values (if-else)**
-   Write a program that reads **N integer values** in the `main()` function.
-   Implement a **calculator with the four basic operations** using **`if-else`**.
-   Each operation must be implemented as a **function**, and the **accumulated result** should be displayed at the end.
-
-5. **Calculator using switch and functions**
+4. **Calculator using switch and functions**
    Write a program similar to the previous one, but using the **`switch`** statement.
    The operations must be implemented as **functions**, and the **accumulated result** should be displayed in `main()`.
-
-
-e um README principal linkando cada lista — isso fica muito profissional no portfólio.
