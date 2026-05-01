@@ -2,10 +2,13 @@
 
 ## Português (PT-BR)
 
-1. **Troca de variáveis sem auxiliar**
+1. **Exibição de textos**
+   Escreva um progrma que use o printf e exiba textos em portugyues e em ingles
+
+2. **Troca de variáveis sem auxiliar**
    Escreva um programa que **permute o conteúdo de duas variáveis** sem utilizar uma variável auxiliar.
 
-2. **Menor múltiplo acima de um limite**
+3. **Menor múltiplo acima de um limite**
    Escreva um programa que determine o **menor múltiplo de um número inteiro** que seja **maior que um limite mínimo** informado.
    Ambos os valores devem ser recebidos via teclado.
    **Exemplo:**
@@ -13,7 +16,7 @@
    Limite mínimo: `100`
    Resultado: `104`
 
-3. **Conversão de segundos**
+4. **Conversão de segundos**
    Escreva um programa que receba um tempo em **segundos** e converta para:
 
    * horas
@@ -23,7 +26,7 @@
      Entrada: `3850` segundos
      Saída: `1h 4min 10s`
 
-4. **Inversão de dígitos**
+5. **Inversão de dígitos**
    Faça um programa que leia um **número inteiro positivo de três dígitos** e gere outro número com os **dígitos invertidos**.
    **Exemplo:**
    Número lido: `123`
@@ -33,10 +36,13 @@
 
 ## English (EN)
 
-1. **Swap variables without a temporary variable**
+1. **Text Display**
+   Write a program that uses printf and displays text in Portuguese and English.
+
+3. **Swap variables without a temporary variable**
    Write a program that **swaps the values of two variables** without using a temporary variable.
 
-2. **Smallest multiple above a limit**
+4. **Smallest multiple above a limit**
    Write a program that finds the **smallest multiple of an integer** that is **greater than a given minimum limit**.
    Both values must be read from user input.
    **Example:**
@@ -44,7 +50,7 @@
    Minimum limit: `100`
    Result: `104`
 
-3. **Seconds conversion**
+5. **Seconds conversion**
    Write a program that receives a time in **seconds** and converts it into:
 
    * hours
@@ -54,7 +60,7 @@
      Input: `3850` seconds
      Output: `1h 4min 10s`
 
-4. **Digit inversion**
+6. **Digit inversion**
    Write a program that reads a **three-digit positive integer** and generates another number with the **digits reversed**.
    **Example:**
    Input: `123`
