@@ -75,6 +75,10 @@
    * mês
    * ano
 
+6. **Citizen Registration Using Pointers** 
+   Write a program that simulates a citizen registration system using pointers. 
+   All operations must be performed using pointers to access and manipulate the data.
+   
 ---
 
 ## English (EN)
@@ -151,4 +155,7 @@
    * day
    * month
    * year
-uções — pronto pra destacar no LinkedIn.
+
+6. **Citizen Registration Using Pointers**
+   Write a program that simulates a citizen registration system using pointers.
+   All operations must be performed using pointers to access and manipulate the data.
