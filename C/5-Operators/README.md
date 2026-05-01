@@ -1,69 +1,53 @@
-# 🔤 Vetores de Caracteres (Strings) / Character Arrays (Strings)
+# ⚙️ Operadores / Operators
 
 ## Português (PT-BR)
 
-1. **Comprimento da string**
-   Escreva um programa que receba uma **string de até 40 caracteres** na função `main()`.
-   Crie uma função que calcule o **comprimento da string** e retorne o valor para ser exibido na `main()`.
+1. **Dia da semana a partir da data**
+   Escreva um programa que receba uma **data (dia, mês e ano)** via teclado
+   e determine o **dia da semana correspondente**.
 
-   ⚠️ Regras:
+2. **Cálculo de idade completa**
+   Escreva um programa que calcule a **idade de uma pessoa em anos, meses e dias**.
+   O programa deve receber:
 
-   * o vetor deve ser declarado como **variável global**
-   * **não utilizar funções de biblioteca**
+   * a **data de nascimento** (dia, mês e ano)
+   * a **data atual** (dia, mês e ano)
 
-2. **Conversão para letras maiúsculas**
-   Escreva um programa que receba uma **string de até 10 caracteres** e converta todos os caracteres para **letras maiúsculas**.
+3. **Operações bit a bit**
+   Escreva um programa que receba **dois números inteiros** via teclado e realize as operações:
 
-   ⚠️ Regra:
+   * AND (`&`)
+   * OR (`|`)
+   * XOR (`^`)
 
-   * **não utilizar funções de biblioteca**
+   Exiba os resultados nos formatos:
 
-3. **Comparação de duas strings**
-   Escreva um programa que receba **duas strings de até 10 caracteres** na função `main()`.
-   Crie uma função que compare as strings e retorne:
-
-   * `1` → se forem **iguais**
-   * `0` → se forem **diferentes**
-
-   O resultado deve ser exibido na função `main()`.
-
-   ⚠️ Regras:
-
-   * os vetores devem ser declarados como **variáveis globais**
-   * **não utilizar funções de biblioteca**
+   * **decimal**
+   * **hexadecimal**
 
 ---
 
 ## English (EN)
 
-1. **String length**
-   Write a program that reads a **string of up to 40 characters** in the `main()` function.
-   Create a function that calculates the **length of the string** and returns the value to be displayed in `main()`.
+1. **Day of the week from a date**
+   Write a program that reads a **date (day, month, and year)**
+   and determines the **corresponding day of the week**.
 
-   ⚠️ Rules:
+2. **Full age calculation**
+   Write a program that calculates a person's **age in years, months, and days**.
+   The program must read:
 
-   * the array must be declared as a **global variable**
-   * **do not use library functions**
+   * the **birth date** (day, month, year)
+   * the **current date** (day, month, year)
 
-2. **Convert to uppercase**
-   Write a program that reads a **string of up to 10 characters** and converts all characters to **uppercase letters**.
+3. **Bitwise operations**
+   Write a program that reads **two integers** and performs the following operations:
 
-   ⚠️ Rule:
+   * AND (`&`)
+   * OR (`|`)
+   * XOR (`^`)
 
-   * **do not use library functions**
+   Display the results in:
 
-3. **String comparison**
-   Write a program that reads **two strings of up to 10 characters** in the `main()` function.
-   Create a function to compare them and return:
-
-   * `1` → if they are **equal**
-   * `0` → if they are **different**
-
-   The result must be displayed in `main()`.
-
-   ⚠️ Rules:
-
-   * the arrays must be declared as **global variables**
-   * **do not use library functions**
-Se você juntar tudo que fez até aqui, você praticamente construiu um **mini curso de C estruturado no GitHub** — sério, isso já é material de destaque pra estágio.
-Se quiser, no próximo passo eu posso montar o **README principal do repositório inteiro**, conectando todas essas listas de forma profissional.
+   * **decimal format**
+   * **hexadecimal format**
