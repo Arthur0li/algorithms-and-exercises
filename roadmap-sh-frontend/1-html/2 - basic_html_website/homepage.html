@@ -4,8 +4,108 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Homepage</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between; /* separa os elementos */
+            align-items: center; /* alinha verticalmente */
+        }
+
+        .name {
+            font-weight: bold;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px; /* espaço entre os links */
+        }
+
+        .title {
+            text-align: center;
+            font-family: Times New Roman, serif;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1100px;
+            margin: 0 auto;
+            margin-top: 15px;
+            border: 2px solid black;
+            padding: 30px;
+            background-color: #e5eef7;
+        }
+        
+        .content {
+            display: flex;
+        }
+
+        .projects,
+        .education,
+        .recommendations {
+            border: 2px solid black;
+            padding: 10px;
+            flex: 1; /* divide igualmente o espaço */
+            margin: 0.5px; /* espaço entre as seções */
+            text-align: justify;
+        }
+
+        hr{
+            border: 2px solid black;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 15px;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <p class="name">Arthur Oliveira</p>
+        <nav>
+            <a href="projects.html">| Projects |</a>
+            <a href="article.html">| Article |</a>
+            <a href="contact.html">| Contact |</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="title">
+            <h1>Internship Developer</h1>
+            <p>Welcome to my homepage! Here you can find information about my projects, articles, and how to contact me.</p>
+
+            <hr>
+        </section>
+        
+        <section class="content">
+            <section class="projects">
+                <h3>Projects</h3>
+                <p>Python Practices</p>
+                <hr>
+                <p>Arduino Practices</p>
+                <hr>
+                <p>Cs Practices</p>
+            </section>
+
+            <section class="education">
+                <h3>Education</h3>
+                <p>Fatec Rubens Lara - Associate Degree in Systems Analysis and Development</p>
+                <hr>
+                <p>Fortec Cubatão - Technical Diploma in Information Technology</p>
+            </section>
+
+            <section class="recommendations">
+                <h3>Recommendations Received</h3>
+                <p>Renato de Marchi<br> His ability to solve problems efficiently, combined with a proactive and collaborative profile, makes him a distinguished professional.</p>
+                <hr>
+                <p>Daniel Santiago <br> His communication skills and collaborative attitude made the study environment more harmonious and productive.</p>
+            </section>
+        </section>
+
+    <footer>
+        
+    </footer>
 </body>
 </html>

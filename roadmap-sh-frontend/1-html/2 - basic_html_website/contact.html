@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact me</title>
+    <style>
+    </style>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <p class="name">Arthur Oliveira</p>
+            <a href="homepage.html">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="article.html">Article</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <form action="Form" method="post">    
+                <label for="name">Name:</label>    
+                <input type="text" id="name" name="name" placeholder="Type your name" required>   
+                
+                <br><br>    
+                
+                <label for="email">E-mail:</label>    
+                <input type="email" id="email" name="email" placeholder="Type your email" required>    
+                
+                <br><br>    
+                
+                <label for="password">Password:</label>    
+                <input type="password" id="password" name="password" placeholder="Type your password" required>    
+                
+                <br><br>    
+                
+                <label for="age">Age:</label>    
+                <input type="number" id="age" name="age" placeholder="Type your age" required>    
+                
+                <br><br>    
+
+                <button type="submit">Submit</button>    
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+         <p>© 2026 Arthur Oliveira. All rights reserved.</p>    
+    </footer>
 </body>
 </html>
