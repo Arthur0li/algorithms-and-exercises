@@ -33,9 +33,7 @@
             display: flex;
         }
 
-        .projects,
-        .education,
-        .recommendations {
+        .content-itens {
             border: 2px solid black;
             padding: 10px;
             flex: 1; /* divide igualmente o espaço */
