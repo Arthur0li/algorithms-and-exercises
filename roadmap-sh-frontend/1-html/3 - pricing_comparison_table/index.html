@@ -3,9 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pricing Comparison</title>
+
+<style>
+    body {
+        font-family: Open Sans, sans-serif;
+        margin: 0;
+        padding: 16px;
+    }
+
+    h1, p {
+        margin: 0;
+        font-weight: 50;
+    }
+
+    nav {
+        display: flex;
+        gap: 10px;
+    }
+
+    main {
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    footer {
+        margin-top: 24px;
+    }
+
+    table {
+        width: 25%;
+        border-collapse: collapse;
+    }
+
+    tr, td, th {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+</style>
 </head>
 <body>
-    
+    <header>
+        <h1>Acme Plans</h1>
+        <nav>
+            <p>Home</p>
+            <p>About</p>
+            <p>Contact</p>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Plan Comparison</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Plan</th>
+                    <th>Storage</th>
+                    <th>Projects</th>
+                    <th>Support</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Plan</td>
+                    <td>5 GB</td>
+                    <td>3</td>
+                    <td>Email</td>
+                </tr>
+                <tr>
+                    <td>Pro</td>
+                    <td>100 GB</td>
+                    <td>25</td>
+                    <td>Priority Email</td>
+                </tr>
+                <tr>
+                    <td>Business</td>
+                    <td>1 TB</td>
+                    <td>Unlimited</td>
+                    <td>24/7 Phone</td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="text-align: center; font-style: italic; background-color: #dddddd;">All plans include access to our community forum.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>© 2026 Arthur Oliveira.</p>
+    </footer>
 </body>
 </html>
