@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Acme</title>
+    <style>
+        body {
+            font-family: Open Sans, sans-serif;
+            max-width: 500px;
+            margin: 0 auto;
+            margin-top: 15px;
+            border: 2px solid black;
+            padding: 30px;
+            background-color: #e5eef7;
+            text-align: justify;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        hr {
+            margin: 20px 0;
+        }
+        h1, h2, p{
+        margin-top: 2px;
+        margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Acme Support</h1>
+        <nav>
+            <p>Home</p>
+            <p>Help</p>
+            <p>Contact</p>
+        </nav>
+        <hr>
+    </header>
+    
+    <main>
+        <section>
+            <h1>Contact us</h1>
+            <p>Send us a message and we'll get back to you as soon as possible.</p>
+            <form action="Form" method="post">    
+                <label for="Full name">Full name:</label>    
+                <input type="text" id="Full name" name="Full name" required>   
+                
+                <br><br>    
+                
+                <label for="email">E-mail:</label>    
+                <input type="email" id="email" name="email" required>    
+                
+                <br><br>    
+                
+                <label for="subject">Subject:</label>    
+                <select id="subject" name="subject" required>    
+                    <option value="">Select a subject</option>    
+                    <option value="general">General Inquiry</option>    
+                    <option value="support">Technical Support</option>    
+                    <option value="sales">Sales</option>
+                </select>
+
+                <br><br>    
+                
+                <label for="MESSAGE">Message:</label>    
+                <textarea id="MESSAGE" name="MESSAGE" rows="1" cols="20" placeholder="Write your message here..." required></textarea> 
+                
+                <br><br>    
+
+                <label for="choice">How did you hear about us?</label>
+                <br>
+                <input type="radio" id="choice1" name="choice" value="social media" required>
+                <label for="choice1">Social Media</label>
+                <br>    
+                <input type="radio" id="choice2" name="choice" value="friend" required>
+                <label for="choice2">Friend</label>
+                <br>
+                <input type="radio" id="choice3" name="choice" value="other" required>
+                <label for="choice3">Other</label> 
+                
+                <br><br>    
+
+                <button type="submit">Send Message</button>    
+            </form>
+        </section>
+    </main>
+
+    <hr>
+    <footer>
+         <p>© 2026 Acme Support.</p>    
+    </footer>
+</body>
+</html>
