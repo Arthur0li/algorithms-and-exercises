@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=144612&text=Algorithms%20and%20Exercises&textBg=false&animation=fadeIn&fontColor=E8E2A5"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=144612&text=Algorithms%20and%20Exercises&fontSize=60&textBg=false&animation=fadeIn&fontColor=E8E2A5"/>
 
 # 📚 Algorithms and Exercises
 
