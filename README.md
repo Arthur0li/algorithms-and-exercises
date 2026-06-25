@@ -1,3 +1,5 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=144612&text=Algorithms%20and%20Exercises&textBg=false&animation=fadeIn&fontColor=E8E2A5"/>
+
 # 📚 Algorithms and Exercises
 
 ## 📖 About
@@ -40,6 +42,8 @@ If you want to contribute, open an issue or submit a pull request with a clear d
 All respectful contributions are welcome.
 
 ---
+---
+---
 
 # 📚 Algoritmos e Exercícios
 
@@ -80,3 +84,5 @@ Este repositório aceita pull requests simples, como:
 
 Se quiser contribuir, abra uma issue ou envie um pull request com uma descrição clara das mudanças.
 Toda contribuição respeitosa é bem-vinda.
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=144612&section=footer"/>
